@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This source file is subject to the MIT License.
+ * It is also available through http://opensource.org/licenses/MIT
+ *
+ * @category  PedroTeixeira
+ * @package   PedroTeixeira_Correios
+ * @copyright Copyright (c) 2014 Pedro Teixeira (http://pedroteixeira.io)
+ * @author    Pedro Teixeira <hello@pedroteixeira.io>
+ * @license   http://opensource.org/licenses/MIT
+ */
+-->
+<config>
+    <modules>
+        <PedroTeixeira_Correios>
+            <active>true</active>
+            <codePool>community</codePool>
+        </PedroTeixeira_Correios>
+    </modules>
+</config>

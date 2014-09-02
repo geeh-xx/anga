@@ -1,0 +1,8 @@
+<?php if ($this->isOnepageCheckoutAllowed()):?>
+    <button type="button" title="<?php echo $this->__('Proceed to Checkout') ?>" class="button btn-checkout<?php if (!$this->checkEnable()){ echo 'no-checkout'; }?>"<?php if (!$this->checkEnable()){ echo ' disabled="disabled" ';} ?> onclick="window.location='<?php echo $this->getOnepageCheckoutUrl() ?>';">
+    	<span><span><?php echo $this->__('Proceed to Checkout') ?></span></span>
+</button>
+    <div class="clear" style="height:42px"></div>
+    <p style="font-size:11px; line-height:13px; margin-top:10px; display:block;">A encomenda será entregue nos Correios em até 2 dias úteis<br/>
+após a confirmação do pagamento.<br/> Considerar um prazo médio de 4 dias via PAC e 2 dias via Sedex, após a entrega nos Correios.</p>
+<?php endif?>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>CVM_GoogleTagManager</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A standard implementation of Google Tag Manager, coupled with data layer support for transaction and visitor data.</summary>
+    <description>A standard implementation of Google Tag Manager, coupled with data layer support for transaction and visitor data.&#xD;
+&#xD;
+Use the data layer to enable Google Analytics e-commerce tracking using Google Tag Manager's native tags. You can also build more flexible macros in GTM using visitor data.&#xD;
+&#xD;
+Additional data layer work is planned for future releases, starting with site search data.</description>
+    <notes>Initial release. Adds Google Tag Manager to all pages, with optional data layer for transaction and visitor data.</notes>
+    <authors><author><name>CVM Software</name><user>cvmsoftware</user><email>cvmsoftware@gmail.com</email></author></authors>
+    <date>2013-05-04</date>
+    <time>17:05:33</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="CVM_GoogleTagManager.xml" hash="25543ddc66056911f2aa8962988efdac"/></dir></target><target name="magecommunity"><dir name="CVM"><dir name="GoogleTagManager"><dir name="Block"><file name="Gtm.php" hash="6704c478b79ee5badc12c90fc60b733f"/></dir><dir name="Helper"><file name="Data.php" hash="54708cad03ef2240d00ee61a9ff6ab65"/></dir><dir name="Model"><file name="Observer.php" hash="1391157e1f966cc424ffc4cf1c6af4ac"/></dir><dir name="etc"><file name="adminhtml.xml" hash="78b1be56f2c63a00441de29788fe6517"/><file name="config.xml" hash="c8a8f72dc2226ce774fa01c7a6e8af79"/><file name="system.xml" hash="8082d46a6419165d774afaaaed979eb9"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="googletagmanager.xml" hash="34c84ea0c22a464d7970264888c8a5d3"/></dir><dir name="template"><dir name="googletagmanager"><file name="gtm.phtml" hash="24aa3377f6a593d0831254720c833cbb"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

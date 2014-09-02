@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+    <name>PedroTeixeira_Correios</name>
+    <version>4.2.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.pteixeira.com.br/new-bsd-license/">New BSD License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>M&#xF3;dulo de c&#xE1;lculo de PAC, Sedex, E-Sedex, Sedex 10, Sedex Hoje e Sedex a Cobrar.</summary>
+    <description>Vers&#xE3;o 4.2.0 do m&#xF3;dulo de c&#xE1;lculo de frete para Magento.
+
+Utilizando peso volum&#xE9;trico para c&#xE1;lculo de todos os servi&#xE7;os e compat&#xED;vel com a valida&#xE7;&#xE3;o de dimens&#xF5;es dos Correios
+
+Contando com os seguintes servi&#xE7;os:
+
+- Sedex Sem Contrato
+- Sedex Com Contrato
+- E-Sedex Com Contrato
+- PAC Sem Contrato
+- PAC Com Contrato
+- Sedex 10
+- Sedex HOJE
+- Sedex a Cobrar
+
+Conta com identifica&#xE7;&#xE3;o de erros dos Correios, m&#xE3;o pr&#xF3;pria, aviso de recebimento, valor declarado, captura do prazo de entrega dos Correios, adicionar mais dias ao prazo dos Correios, identifica o volume dos produtos por atributo e Tracking em tempo real.
+
+Mais informa&#xE7;&#xF5;es em http://www.pteixeira.com.br&#xFEFF;.</description>
+    <notes>M&#xF3;dulo de c&#xE1;lculo de PAC, Sedex, E-Sedex, Sedex 10, Sedex Hoje e Sedex a Cobrar.</notes>
+    <authors><author><name>Pedro Teixeira</name><user>auto-converted</user><email>teixeira.pedro@gmail.com</email></author></authors>
+    <date>2011-07-04</date>
+    <time>02:30:37</time>
+    <contents><target name="mage"><dir name="app"><dir name="etc"><dir name="modules"><file name="PedroTeixeira_Correios.xml" hash="3635fbd879b39f8d43c7c0ac7cfec8d1"/></dir></dir></dir></target><target name="magecommunity"><dir name="PedroTeixeira"><dir name="Correios"><dir name="etc"><file name="config.xml" hash="e2a5bc3aac7846f7592350b8cee3da4d"/><file name="system.xml" hash="f0d50a77f911775a2062dfb45f96795c"/></dir><dir name="Helper"><file name="Data.php" hash="69f95ad2744670a734b87b01ce6c3f09"/></dir><dir name="Model"><dir name="Carrier"><file name="CorreiosMethod.php" hash="b2e8f086db7d977d46f1939b82c7d5a6"/></dir><dir name="Source"><file name="PostMethods.php" hash="ec95386783928b1c648a3e93009decfd"/><file name="WeightType.php" hash="05d4aa67a8090940da5322037bb46e5d"/></dir></dir><dir name="sql"><dir name="pedroteixeira_correios_setup"><file name="mysql4-install-4.0.0.php" hash="ef33ba860a1a8650ce4fb1e3f020d4b7"/><file name="mysql4-upgrade-4.0.0-4.1.0.php" hash="7f37848c7673647f0376c0dd6d8399d4"/><file name="mysql4-upgrade-4.1.0-4.2.0.php" hash="5f087b0de8174e6b014ef5aabac844b4"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
